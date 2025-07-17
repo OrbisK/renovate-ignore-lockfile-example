@@ -2,8 +2,8 @@ name: reset lockfile
 
 on:
   push:
-#    branches:
-#      - '**-stackblitz'
+    branches:
+      - '**-stackblitz'
 
 permissions:
   contents: write
