@@ -5,6 +5,9 @@ on:
 #    branches:
 #      - '**-stackblitz'
 
+permissions:
+  contents: read
+
 jobs:
   reset-lockfile:
     runs-on: ubuntu-latest
