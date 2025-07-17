@@ -6,7 +6,7 @@ on:
 #      - '**-stackblitz'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   reset-lockfile:
@@ -23,6 +23,7 @@ jobs:
           settings:
             autoInstallPeers: true
             excludeLinksFromLockfile: false
+          EOF
 
       - name: Commit changes
         run: |
